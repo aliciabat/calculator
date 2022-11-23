@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa';
+    color: white;
+}
+
+body {
+    background: linear-gradient(#F9564E 50%, #090C31 50%);
+}
+
+
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background-color: #15173C;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #1f2258;
+    transition: 0.5s ;
+}
+
+.span-two {
+    grid-row: span 2;
+    background-color: #F9564E;
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: #15173C;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.previous-operand {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.current-operand {
+    color: white;
+    font-size: 2.2rem;
+}
