@@ -5,11 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Comfortaa';
-    color: white;
+    color: #ffe5ec;
 }
 
 body {
-    background: linear-gradient(#F9564E 50%, #090C31 50%);
+    background: linear-gradient(#dd0547 50%, #021a20 50%);
 }
 
 
@@ -27,23 +27,23 @@ button {
     font-size: 2rem;
     border: none;
     outline: none;
-    background-color: #15173C;
+    background-color: #032129;
     transition: 0.5s;
 }
 
 button:hover {
-    background-color: #1f2258;
+    background-color: #e71f5b;
     transition: 0.5s ;
 }
 
 .span-two {
     grid-row: span 2;
-    background-color: #F9564E;
+    background-color: #dd0547;
 }
 
 .output {
     grid-column: 1 / -1;
-    background-color: #15173C;
+    background-color: #032129;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
